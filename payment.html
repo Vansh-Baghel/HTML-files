@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Payment type </title>
+</head>
+<body>
+    <form action="">              <!--Always add this tag for form. During compulsory steps, it wont leave the msg that "please fill this part" if this tag is not used.-->
+    <h1> Payment Form </h1>
+    <h2> Contact Information  </h2>
+    <p> Compulsory filling of *</p>
+    <p> Name: *<input type="text" name="name" required>  </p>
+    <fieldset>              <!--Used to add the box.-->***************************
+        <legend>             <!--used to write the text on the box.-->
+            Gender * 
+        </legend>
+        <p>
+            Male <input type="radio" name="gender" id="male" required>
+            Female <input type="radio" name="gender" id="female" required>
+        </p>
+    </fieldset>
+    <p>Address: <textarea name="address" id="address" cols="100" rows="8"></textarea> </p>
+    <p> Email: <input type="email" name="email" id="email"> </p>
+    <p> Pincode: *<input type="number" name="pincodeee" id="pincodeee" required>   </p>
+
+    <p> Payment Information </p>
+    <p> Card type: </p>
+    <select name="card_type" id="card_type">
+        <option value="">---Select the card</option>        <!-- First value is always empty.Bcoz server wont have the data of user agar empty nhi rakhte toh-->
+        <option value="visa">Visa</option>
+        <option value="rup">Rupay</option>
+        <option value="m">Mastercard</option>
+    </select>
+
+    <p>
+        Card number: <input type="number" name="c_number" id="c_number">
+    </p>
+    <p>
+        Expiring date: <input type="date" name="dateee" id="dateee">
+    </p>
+    <p>
+        CVV <input type="password" name="cvv" id="cvv">
+    </p>
+    <input type="submit" value="Pay now:)">
+</form>
+</body>
+</html>
