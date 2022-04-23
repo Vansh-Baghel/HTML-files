@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            font-size: 50px;
+            color: brown;
+        }
+        .ab a{
+            color: inherit;
+        }
+
+        .b a{
+            color: initial;
+        }
+
+        .c a{
+            color: unset;
+        }
+
+        h1{
+            color: blue !important;
+        }
+        <!--Here color purple niche h but still blue apply hoga-->
+        h1{
+            color: purple;
+        }
+    </style>
+</head>
+<body>                      <!--Proper explanation in the notepad. -->
+    <ul>
+        <li> Default <a href=""> Link </a> color </li>
+        <li class="ab"> Inherited <a href=""> Link </a> color </li>
+        <li class="b"> Initial <a href=""> Link </a> color </li>
+        <li class="c"> Unset <a href=""> Link </a> color </li>
+    </ul>
+    <h1> This is a text </h1>
+</body>
+</html>

@@ -1,0 +1,22 @@
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    color: green;
+    background-color: lightblue;
+}
+
+td{
+    background-color: pink;
+    color:royalblue ;
+}
+
+span{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    font-family:Dancing Script;
+    margin: 15px 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container{
+    background-color: rgba(226, 235, 238, 0.973);
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+p.para{
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select[name="card_type"],
+textarea,
+fieldset
+{
+    width: 95%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: rgb(143, 247, 139);
+    margin: 10px;
+}
+
+legend{
+    border: 2px solid black;
+    background-color: rgb(143, 247, 139);
+}
+
+input[type="submit"]{
+    width:100%;
+    cursor: pointer;
+    background-color: rgb(247, 234, 242);
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(138, 228, 255);
+}

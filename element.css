@@ -1,0 +1,37 @@
+p,a                 
+{
+    color: green;           
+}
+
+.idk{
+    color: olive;
+    font-weight: bold;
+}
+
+i.idk{
+    color: blue;
+}
+
+li em {
+    color:chartreuse;
+}
+
+h1+p{
+    font-size: 200;
+}
+
+a:hover{
+    color: cyan;
+    text-decoration:none;
+}
+
+#pro {
+    color: crimson;
+    background-color: black;
+}
+
+p[class="damn"]
+{
+    color:blueviolet;
+    padding: 10px;
+}

@@ -7,15 +7,12 @@
     <title> Payment type </title>
     <link rel="stylesheet" href="payment.css">
 </head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
 <body>
-    <div class="container">
     <form action="">              <!--Always add this tag for form. During compulsory steps, it wont leave the msg that "please fill this part" if this tag is not used.-->
     <h1> Payment Form </h1>
     <h2> Contact Information  </h2>
-    <p class="para"> Compulsory filling of *</p>
+    <p> Compulsory filling of *</p>
     <p> Name: *<input type="text" name="name" required placeholder="Your name">  </p>
     <fieldset>              <!--Used to add the box.-->
         <legend>             <!--used to write the text on the box.-->
@@ -30,7 +27,7 @@
     <p> Email: <input type="email" name="email" id="email"> </p>
     <p> Pincode: *<input type="number" name="pincodeee" id="pincodeee" required>   </p>
 
-    <p> <h2> Payment Information </h2> </p>
+    <p> Payment Information </p>
     <p> Card type: </p>
     <select name="card_type" id="card_type">
         <option value="">---Select the card</option>        <!-- First value is always empty.Bcoz server wont have the data of user agar empty nhi rakhte toh-->
@@ -44,12 +41,11 @@
     </p>
     <p>
         Expiring date: <input type="date" name="dateee" id="dateee">
-    </p>
+    </p>****************************
     <p>
         CVV <input type="password" name="cvv" id="cvv">
     </p>
     <input type="submit" value="Pay now:)">
-    </div>
 </form>
 </body>
 </html>

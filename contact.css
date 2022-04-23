@@ -1,0 +1,53 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(245, 253, 251);
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+}
+
+div{
+    background-color: white;
+    border: 70px solid rgb(142, 247, 164);
+    margin:auto;
+    width:40%;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width:95%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding:10px;
+    margin:1px;
+    font-size: 20px;
+}
+
+input[type="submit"]
+{
+    padding:15px;
+    background-color: rgb(77, 77, 253);
+    border-style: none;
+    border-radius: 3px;
+    width: 85px;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(113, 113, 253);
+}
