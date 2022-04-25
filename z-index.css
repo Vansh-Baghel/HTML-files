@@ -1,0 +1,30 @@
+.container{
+    position: relative;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    opacity: 0.7;
+}
+.red{
+    background: #ff0000;
+    z-index: 1;
+}
+.green{
+    top: 30px;
+    left: 30px;
+    background: #00ff00;
+    z-index: 2;
+}
+.blue{
+    top: 60px;
+    left: 60px;
+    background: #0000ff;
+    z-index: 3;
+}
+
+div {
+    font-size: larger;
+    color: white;
+}
