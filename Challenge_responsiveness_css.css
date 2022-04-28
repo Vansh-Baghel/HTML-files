@@ -1,0 +1,53 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+    text-overflow: none;
+
+}
+
+.box_head
+{
+    background-color: rgb(245, 226, 53);
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.head{
+background-color: lightgreen;
+float: left;
+font-size: 20px;
+border: 1px solid black;
+padding: 20px;
+width: 25%;
+}
+
+.one{
+    font-size: 15px;
+}
+
+@media screen and (max-width:400px)
+{
+    .head{
+        width: 100%;
+        background-color: lightblue;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:500px)
+{
+    .head{
+        width: 50%;
+        background-color: rgb(138, 129, 252);
+
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:800px)
+{
+    .head{
+        width: 25%;
+        background-color: rgb(245, 67, 206);
+    }
+}
+
+
