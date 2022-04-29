@@ -1,0 +1,57 @@
+div{
+    box-sizing: border-box;
+    width: 90%;
+    height: 20vh;
+    border: 2px black;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: lightskyblue;
+    margin: 20px auto;
+}
+
+img{
+    width: 15vw;
+    height: 17vh;
+    border: 2px solid darkred;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.class1,.class3{
+    float: right;
+}
+
+.class2,.class4{
+    float: left;
+}
+
+@media screen and (max-width:400px){
+    img{
+        width:40vh;
+    
+    }
+    p{
+        text-align: center;
+        clear: both;
+    }
+    div{
+        height: 40vh;
+      
+    }
+}
+
+
+@media screen and (min-width:400px) and (max-width:570px){
+    img{
+        width:40vh;
+   
+    }
+    p{
+        text-align: center;
+        clear: both;
+    }
+    div{
+        height: 40vh;
+    
+    }
+}
