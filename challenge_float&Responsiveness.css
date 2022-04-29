@@ -40,6 +40,9 @@ img{
     }
 }
 
+.aa{
+    display: inline;
+}
 
 @media screen and (min-width:400px) and (max-width:570px){
     img{
