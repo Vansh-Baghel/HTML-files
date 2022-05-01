@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+
+}
+
+.row_1{
+    width: 20%;
+    border: 2px solid black;
+    margin: 4px;
+    font-size: larger;
+}
+
+.row_1 p,h3{
+    padding: 20px; 
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    align-self:baseline;
+    background-color: cadetblue;
+}
+
+.roww{
+    background-color: coral;
+}
+
+div.nav{
+    background-color:silver;
+    border-radius: 3px;
+    margin: 15px;
+    text-align: center;
+    font-size: larger;
+}
+
+div.nav:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+
+

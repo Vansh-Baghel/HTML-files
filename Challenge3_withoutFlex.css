@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+}
+
+.r1{
+    width: 30%;
+    background-color: lightseagreen;
+    height: 95vh;
+    padding: 5px;
+}
+
+.r2{
+    width: 70%;
+}
+
+.lr1{
+    background-color: lightgreen;
+    padding: 5px;
+    height: 15vh;
+    box-sizing: border-box;
+}
+
+.lr_1{
+    padding: 5px;
+    background-color:burlywood;
+    height: 65vh;
+}

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+}
+
+
+.container div{
+    padding: 10px;
+    /* using flex-grow:1 function, boxes in each row are growing relatively to each other */
+    flex-grow: 1;
+    font-size: 20px;
+    margin: 3px;
+    border-radius: 5px;
+    color: blanchedalmond;
+    background-color: rgb(187, 36, 36);
+}
+
+div.l1{
+    display:flex;
+    padding: 0px;
+}
+
+/* styling boxes of nested class named "l1" */
+.l1 div{
+    /* using flex-grow:1 function, boxs of nested class named "l1" are growing relatively to each other */
+    flex-grow: 1;
+    background-color:beige;
+    color: black;
+}
