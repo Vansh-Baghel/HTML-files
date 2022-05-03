@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 1.5%;
+}
+
+.item{
+    background-color: rgb(238, 238, 83);
+    color: black;
+    font-size: larger;
+    padding:10px;
+}
+
+.nested_lists{
+    display: grid;
+    grid-template-rows: 75px 500px 75px;
+    grid-gap: 10px;
+}
+
+.sec_row{
+    display: grid;
+    grid-template-columns:80% 20%;
+    grid-gap: 10px;
+}
+
+
+
