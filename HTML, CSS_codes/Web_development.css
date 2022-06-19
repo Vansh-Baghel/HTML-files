@@ -1,0 +1,180 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 25px;
+    border: 2px solid black;
+    box-shadow: 20px 20px 10px rgba(0,255,255,0.7);
+}
+
+h1.head span{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    font-family: sans-serif;
+    margin: 0px;
+    height: 15vh;
+    padding: 25px;
+    border-radius: 10px;
+    text-shadow: 10px 10px 13px black ;
+}
+
+h1.head,h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px ;
+}
+
+h1.first{
+    background-color: #34568B;
+    margin: 0px;
+    padding: 30px;
+    color: azure;
+}
+
+nav{
+    display: flex;
+    background-color: #000000cb;
+    overflow: hidden;
+}
+
+nav a{
+    font-family: sans-serif;
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 15px;
+    float: left;
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.863);
+    color: #9cbdf1;
+}
+
+.flex-align-right{
+    margin-left: auto;
+}
+
+iframe{
+    box-sizing: border-box;
+    width: 40vw;
+    height: 50vh;
+    padding: 5px;
+    margin: 40px;
+    border: 2px inset; 
+    border-radius: 5px;
+}
+
+h1.Resources a{
+    width: 48%;
+    height: 50vh;
+    box-sizing: border-box;
+}
+
+.pdfs img{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 20px;
+    border:2px groove ; 
+    width: 40%;
+    border-radius: 5px;
+}
+
+img.middle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:10px solid black;
+    border-radius: 5px;
+}
+
+img.author{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+.media img{
+    width: 10%;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+
+}
+
+.media{
+    margin-left: 33%;
+}
+
+div p{
+    font-size: 25px;
+    margin-left: 20% ;
+    margin-right: 20%;
+    border: 2px solid rgba(104, 34, 34, 0.795);
+    background-color: #DFCFBE;
+}
+
+footer{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1.Author{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 640px) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+       
+    .flex-align-right{
+        margin-left: 0px;   
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1.head{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    iframe{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:780px) {
+    body{
+        width: 100vw;
+    }
+}
+
+@media screen (min-width:440px) and (max-width:520px) {
+    h1 span{
+        display: block;
+        overflow-y: hidden;
+    }
+}
+
+@media screen and (max-width:435px) {
+    h1 span{
+        display: block;
+        overflow: hidden;
+    }
+}

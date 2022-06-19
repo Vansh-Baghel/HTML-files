@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+#product-overview h1 {
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+
+.plan__list{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+/* h1 {
+    font-family: sans-serif;
+} */
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    padding: 8px 0px;
+}
+
+.main-nav__item a:hover{
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.main-nav__item a:active{
+    color: rgb(11, 11, 12);
+    background-color: rgb(248, 248, 248);
+}
+
+.strtHosting a{
+    background-color: rgb(236, 105, 105);
+    border-radius: 10px;
+    padding: 3px 10px;
+    color:white
+}
+
+.strtHosting a:hover{
+    border:none;
+    background-color: whitesmoke;
+    color: black;
+}
+
+#product-overview{
+    background: #ff1b68;
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+    background-image: url(/Notes_resources_imgs,pdfs,etc/peace.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.plan{
+    text-align: center;
+    background-color: #6fec90;
+    padding: 12px 16px;
+    margin: 8px;
+    display: inline-block;
+    width: calc(30%);
+    vertical-align: middle;
+}
+
+.plan--highlight{
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px 7px 3px rgb(0,0,1);
+}
+
+.head--box{
+    background-color: white;
+    color:rgb(6, 196, 6);
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px black;
+}
+
+ul{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+ul li{
+    padding: 5px;
+}
+
+.plan__head{
+    color: rgb(2, 58, 2);
+}
+
+.plan--highlight .plan__price{
+    color: #41f170;
+}
+
+.plan__price{
+    color: #858585;
+}
+
+.button{
+    background-color: #0e4f1f;
+    color: white;
+    padding: 8px;
+    font-family: inherit;
+    border: 1px solid #0e4f1f;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: white;
+    color: #0e4f1f;
+    cursor: pointer;
+}
+
+#key-features {
+    background-color: #f13a3a;
+    margin-top: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#key-features h1{
+    color: white;
+    text-transform: capitalize;
+}
+
+#key-features ul li{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+
+}
+
+.key-feature__image{
+    background-color: grey;
+    width: 120px;
+    height: 120px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin: auto;
+}
+
+footer{
+    background-color: black;
+}
+
+footer ul{
+    text-align: center;
+    padding: 30px 10px;
+    font-size: small;
+}
+
+footer ul li{
+    color: white;
+    display: inline;
+}
+
+footer ul li:hover{
+    color:cornflowerblue;
+    cursor: pointer;
+}

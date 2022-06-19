@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.bg-img{
+    background-image: url(/Notes_resources_imgs,pdfs,etc/bg.webp);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1 ;
+}
+
+.package--badge{
+    position: absolute;
+    top: 80px;
+    left: 80%;
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff5454;
+}
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    padding: 8px 0px;
+}
+
+.main-nav__item a:hover{
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.main-nav__item a:active{
+    color: rgb(11, 11, 12);
+    background-color: rgb(248, 248, 248);
+}
+
+.button{
+    background-color: #0e4f1f;
+    color: white;
+    padding: 8px;
+    font-family: inherit;
+    border: 1px solid #0e4f1f;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: white;
+    color: #0e4f1f;
+    cursor: pointer;
+}
+
+.strtHosting a{
+    background-color: rgb(236, 105, 105);
+    border-radius: 10px;
+    padding: 3px 10px;
+    color:white
+}
+
+.strtHosting a:hover{
+    border:none;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.package:hover,
+.package:active{
+    border:5px solid orangered;
+    cursor: pointer;
+}
+
+.package{
+    display: block;
+    border: 5px solid black;
+    background-color: #40f06f;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+/* Section ke under all a will be edited */
+.package > a{
+    text-decoration: none;
+}
+
+.package p{
+    border: 1px solid black;
+    background-color: white;
+    margin: 20px;
+    padding: 20px 10px;
+    color: #0e4f1f;
+}
+
+.clearEl{
+    clear: both;
+}
+
+#Plus{
+    margin-top: 35px;
+}
+
+#Free{
+    background-color: #75ee95;
+    float: right;
+    margin-right: 0px;
+}
+
+#Premium{
+    background-color: #116928;
+    clear: left;
+}
+
+#Premium h1{
+    color: white;
+}
+
+section h1{
+    color:rgb(11, 11, 12)
+}
+
+section h2{
+    color:#858585 ;
+}
+
+footer{
+    background-color: black;
+}
+
+footer ul{
+    text-align: center;
+    padding: 30px 10px;
+    font-size: small;
+}
+
+footer ul li{
+    color: white;
+    display: inline;
+    padding: 7px;
+}
+
+footer ul li:hover{
+    color:cornflowerblue;
+    cursor: pointer;
+}
