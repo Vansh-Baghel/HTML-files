@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
+}
+
+#product-overview h1 {
+  color: black;
+  font-family: 'Anton', sans-serif;
+}
+
+.plan__list{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+/* h1 {
+  font-family: sans-serif;
+} */
+
+.main-header {
+  width: 100%;
+  background: #2ddf5c;
+  padding: 8px 16px;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-header__brand img {
+  width: 40px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 74px);
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
+  padding: 8px 0px;
+}
+
+.main-nav__item a:hover{
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.main-nav__item a:active{
+  color: rgb(11, 11, 12);
+  background-color: rgb(248, 248, 248);
+}
+
+.strtHosting a{
+  background-color: rgb(236, 105, 105);
+  border-radius: 10px;
+  padding: 3px 10px;
+  color:white
+}
+
+.strtHosting a:hover{
+  border:none;
+  background-color: whitesmoke;
+  color: black;
+}
+
+
+.testimonial {
+    font-size: 20px;
+    margin: 48px 0;
+  }
+  
+  .testimonial__list {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .testimonial:first-of-type {
+    margin-top: 96px;
+  }
+
+  /* inline block will add both text and image on the same line.
+   vertical-align is used to display text in the center beside the image.*/
+  .testimonial__image-container {
+    width: 65%;
+    display: inline-block;
+    vertical-align:middle;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
+  }
+
+  /* vertical align is used to fix the box shadow . This glitch is because img container acts as inline. */
+  .testimonial__image {
+    width: 100%;
+    vertical-align: top;
+  }
+  
+  /* width will be the width of the container of text. It'll be fitted on same line if width is big */
+  .testimonial__info {
+    text-align: right;
+    padding: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+  }
+  
+  #customer-2.testimonial {
+    text-align: right;
+  }
+  
+  #customer-2 .testimonial__info {
+    text-align: left;
+  }
+  
+  .testimonial__name {
+    margin: 3px;
+    color: #ff5454;
+  }
+  
+  .testimonial__subtitle {
+    margin: 0;
+    font-size: 18px;
+    color: #ccc;
+  }
+  
+  .testimonial__subtitle a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .testimonial__subtitle a:hover,
+  .testimonial__subtitle a:active {
+    color: #7a7a7a;
+  }
+  
+  .testimonial__text {
+    margin: 3px;
+  }
+  
+  footer{
+    background-color: black;
+}
+
+footer ul{
+    text-align: center;
+    padding: 30px 10px;
+    font-size: small;
+}
+
+footer ul li{
+    color: white;
+    display: inline;
+    padding : 7px;
+}
+
+footer ul li:hover{
+    color:cornflowerblue;
+    cursor: pointer;
+}

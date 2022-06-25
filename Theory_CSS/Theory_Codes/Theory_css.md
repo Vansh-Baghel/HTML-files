@@ -190,3 +190,85 @@ Default value is static in the browser.
 
 - child element's z-index has no effect on other parent elements .
 - It says that if there are 2 parent elements , one has z-index 1 and another one has 100 . If child element of parent element which has z-index 1 has z-index of 1000 then still the child will lie below the 2nd parent element.
+
+# 11 .
+
+## 1 grid-column property
+
+- Number of child elements is equal to the number of columns.
+
+## text-transform
+
+- Used to transfer the text into uppercase, lowercase ,etc,
+
+## Overflow ( scroll/auto/hidden/visible;)
+
+- Scroll is very useful for any part of ur website to be scrolled in a certain list.
+
+## background image VS color
+
+- Img overwrites color even if color is used down .
+
+## background-size
+
+- Used to fit the img properly in the web .
+- **cover** is used to fit the image properly into the container.
+- **contain** is used to fit the image without cropping it. In cover , its kind of cropped .
+- We can manually add the size too of the image.
+
+## background-position
+
+- We can add the position of image that how far the space must be.
+- With `%` it'll adjust the image of the cropped part , ie , if we want some bottom part of img to be in the frame then we can adjust it y-axis and keep x as 0 .
+- `%` wont work if the image is already fixed properly. For adjust that, use px or any other unit.
+- We can also use `left` or `left 10%` to set left as `0%` or `10%`.
+
+[bg-properties](https://github.com/PacktPublishing/CSS---The-Complete-Guide-incl.-Flexbox-Grid-and-Sass-/blob/master/Section%207/css-background-properties.pdf)
+
+## background-origin
+
+- border-box (content will also include border ie below border there wont be white space) , padding-box (includes padding and content but not the border , ull see difference if u set the border as dashed), content-box (removes the padding , margin).
+
+## background-clip
+
+- Overwrites origin but kinda similar to origin.
+
+## backgroud shorthand property
+
+- background position and size are separated by a slash , if only one value is specified like border-box then it'll be added to both origin adn clip otherwise if we mention both then origin will be accepted before clip.
+
+## editing img (not bg img)
+
+- Background img is added in css , this img is added in html by specifing the path.
+- We have to select the img tag separately to edit it , because it doesnt inherit the size of container.
+- It has its own size and the only way to edit is this.
+
+## aligning img and text
+
+- To align the text and image side by side, best way to do is to set the _image container_ and the _text_ element style as `inline-block` and `vertical-align:middle` to properly see them side by side.
+
+## border glitch
+
+- If we have an image in an image container in the form of inline property , then shadow will give some extra white space , so to remvoe that we can use `vertical-align` or `display: block` .
+
+## linear gradient
+
+- Both linear and radial gradient counts as image .
+- linear gradient(direction , color) , Here direction is by default from top to bottom . We can adjust the direction according to our desire.
+- We can add degrees to the direction like `30deg` .
+
+## radial gradient
+
+- It basically gives shape the bacskground acc to the color . Default shape is ellipse.
+- We can give the shapes and direction at the same time and also the width `circle to top` or `circle width` .
+- The width applicstion changes according to the shape , like circle takes 1 arguemnt while ellipse will take 2 . We can assign the width to the colors too .
+
+## filter
+
+- We can add many visual things by using filter
+- EG:- `grayscale` can add grey color .
+
+## SVG
+
+- It doesnt get blurly however times we zoom it. Its size is also smaller than jpg , etc.
+- It gives more control than img to change the img , like we can change the lines of flowchart, eyes of any face , width of image , etc
