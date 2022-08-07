@@ -172,15 +172,15 @@ Default value is static in the browser.
 
 - This will overlap the boxes and the text if we put the styling accordingly.
 - It will refer to the html position by default but will refer to the ancestor element which have the position style in use.
-- This reference will be for the positions we happly through left, right styles.
+- This reference will be for the positions we apply through left, right styles.
 - It is not stuck on the web page like fixed.
 
-### Relative:-
+### 3. **Relative**:-
 
 - NOTE :- In **relative** , the distance changed will be with reference to the element itself because the positioning context is the element. While in **absolute** and **fixed** the reference is with the html file.
 - top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position.
 
-### Sticky (rarely used)
+### 4. **Sticky** (rarely used)
 
 - A sticky element toggles between relative and fixed.
 - It wont have any effect unless top , bottom , left , right is used with it, it'll just act as it doesnt exist.
@@ -218,6 +218,7 @@ Default value is static in the browser.
 
 ## background-position
 
+- We can use this only with the background image.
 - We can add the position of image that how far the space must be.
 - With `%` it'll adjust the image of the cropped part , ie , if we want some bottom part of img to be in the frame then we can adjust it y-axis and keep x as 0 .
 - `%` wont work if the image is already fixed properly. For adjust that, use px or any other unit.
@@ -233,9 +234,13 @@ Default value is static in the browser.
 
 - Overwrites origin but kinda similar to origin.
 
+## background-position
+
+- Used to adjust image the way we want.
+
 ## backgroud shorthand property
 
-- background position and size are separated by a slash , if only one value is specified like border-box then it'll be added to both origin adn clip otherwise if we mention both then origin will be accepted before clip.
+- background position and size are separated by a slash , if only one value is specified like border-box then it'll be added to both origin and clip otherwise if we mention both then origin will be accepted before clip.
 
 ## editing img (not bg img)
 
@@ -272,3 +277,18 @@ Default value is static in the browser.
 
 - It doesnt get blurly however times we zoom it. Its size is also smaller than jpg , etc.
 - It gives more control than img to change the img , like we can change the lines of flowchart, eyes of any face , width of image , etc
+
+## Units
+
+- rem is like it will multiply the value with the root value ie with the html's value which could be set or like the default.
+- For **padding** , **font-size** and **margin** (margin not always) use **rem** because it makes the things look good in different device with different defaults.
+- em must not be used because it multiplies the value with the parent's/ ancestor's value . If you use it in twice nesting then it'll multiply the value twice which could be fatal and confusing.
+
+## Media query
+
+- So in this we must align the tags according to the size in ascending order otherwise it wont work.
+- Try to include this style at the end of your website.
+- Make your website for phone and then through this styling make it for desktop.
+- We have to use min/max-width after the @media query and also in the containers to stop their size after a certain limit.
+
+fd
