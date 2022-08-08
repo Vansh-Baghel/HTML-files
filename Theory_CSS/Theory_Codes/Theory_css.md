@@ -284,11 +284,119 @@ Default value is static in the browser.
 - For **padding** , **font-size** and **margin** (margin not always) use **rem** because it makes the things look good in different device with different defaults.
 - em must not be used because it multiplies the value with the parent's/ ancestor's value . If you use it in twice nesting then it'll multiply the value twice which could be fatal and confusing.
 
-## Media query
+# Media query
 
 - So in this we must align the tags according to the size in ascending order otherwise it wont work.
 - Try to include this style at the end of your website.
 - Make your website for phone and then through this styling make it for desktop.
 - We have to use min/max-width after the @media query and also in the containers to stop their size after a certain limit.
 
-fd
+# invalid && valid pseudo selector
+
+- Used to highlight the invalid statements.
+- Can be used with required attribute in the input tag.
+
+# Font styles
+
+## @font-face
+
+- We can add the font file from the files into this using src
+
+#
+
+## @import url()
+
+- Font from google could be added by this.
+
+## letter spacing
+
+- It increases the space between each of the letters.
+
+## white space
+
+- We can use **pre** to add space of a paragraph.
+- We can use **nowrap** to print all the text on the same line.
+
+# flexbox
+
+- children tags acts as flex items and we can use align-self for it.
+- Parents tags mai we can use **justify-content** , **align-content** , **align-self** , etc properties.
+
+## inline-flex
+
+- inline-flex are also used to align the items in the same line but while decreasing the size the item's size **wouldn't decrease**.
+
+## flex-wrap & flex-direction
+
+- As soon as we change the size in flex-wrap , the items move to the **next line**.
+- In flex-direction , if size of items are **defined** then it **wont change** but if its **not defined** then it will be **adjusted according to the page** size.
+
+## main and cross axis
+
+- In flex-direction column ,
+  - main axis will act as column.
+  - cross axis will act as row.
+- In flex-direction row ,
+  - main acts as row and cross acts as column.
+
+## flex-items & justify-content
+
+- **flex-items** follows the **cross axis** and **justify content** follows the **main axis**.
+- If the direction is column , then the flex-items will act as column and justify-content will act as row.
+- If the direction is row , then the flex-items will act as column and justify-content will act as row.
+
+## Trick to center the items
+
+- It could be done by _justify content_ **center** if the _flex-direction_ is **row** and could be done by _flex-items_ **center** if the _flex-direction_ is **column**.
+
+## align-content
+
+- Combination of align-items and justify-content , if we decrease the size of item then it will **wrap** the item according to the property which we assign to the align-content.
+- The value will be **triggered** as soon as we **decrease** the size of the items or if the size of **container** is **smaller** than the items to fit in.
+
+## order
+
+- We can **adjust** the order of child elements by using **order**
+
+## align-self
+
+- It can only be used on one element at a time , you cannot use it for more than one child elements.
+- It follows the **cross axis** ie opposite the direction of the flex.
+
+## flex-grow
+
+- It can only be used on one element at a time , you cannot use it for more than one child elements.
+- It keeps growing from its given width if we change the width of the screen.
+- Default value is 0.
+
+## flex-shrink
+
+- Default value is 1.
+- It can only be used on one element at a time , you cannot use it for more than one child elements.
+- It keeps reducing from its given width if we change the width of the screen.
+
+## flex-basis
+
+- Always follows the main axis only.
+- It gives the height or width value wrt to the direction.
+- If direction is **row** , then the value inside the flex-basis will **overwrite** the **width** and if direction is **column** then will overwrite **height**.
+
+# Grid
+
+- Very important to give the positions to the elements and its handles the hardest part of web page ie to give the positions.
+
+## display grid
+
+- It gives the rows and columns according to the elments present inside the parent element like each child acts as row and if child have grandchilds then child will be one column and grandchild row inside that column.
+
+## grid-template-columns/rows
+
+- We can add the columns no matter the child elements by giving the size in px , % or fr.
+- It will create column which doesn't exist.
+
+## grid-(column/row)-(start/end)
+
+- This is used to adjust the space to be taken by the element like to join multiple rows and columns.
+- By passing the **value** as the number of the line of column/row which we can see from layout , this indicates that **till** how much block it must **exceed**.
+- **auto** fills up the remaining space of the row or column by the last element and this could be very helpful .
+- **repeat** is used to avoid the repetation of values we want to give , for eg , if we want to create 16 rows then writing **(16 , 25%)** is the best way to get .
