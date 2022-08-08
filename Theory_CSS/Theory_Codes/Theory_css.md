@@ -400,3 +400,22 @@ Default value is static in the browser.
 - By passing the **value** as the number of the line of column/row which we can see from layout , this indicates that **till** how much block it must **exceed**.
 - **auto** fills up the remaining space of the row or column by the last element and this could be very helpful .
 - **repeat** is used to avoid the repetation of values we want to give , for eg , if we want to create 16 rows then writing **(16 , 25%)** is the best way to get .
+- Using **span** allows us to mention the number of blocks we need to be merged.
+
+## grid-row/column
+
+- It is a shorthand property to define the start and end of the following.
+
+## grid-gap
+
+- It is a shorthand property to define row-gap and column-gap.
+- Also both of the properties can also be defined separately too .
+- If we define only one , then it will be applied to both row and column.
+
+## grid-auto-rows/columns
+
+- It allows us to set the size of all the following to the mentioned size inside the property.
+
+## grid-auto-flow
+
+- It allows us to change the flow of the new added elements , the default flow is row for the direct child elements but we can change it to column.
