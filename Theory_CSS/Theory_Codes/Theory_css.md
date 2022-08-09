@@ -419,3 +419,19 @@ Default value is static in the browser.
 ## grid-auto-flow
 
 - It allows us to change the flow of the new added elements , the default flow is row for the direct child elements but we can change it to column.
+  
+  ## auto-fill
+  - Used to align the items on the same line automatically, otherwise the size doesn't change. 
+  -  This could be used with _grid-template-column/rows_ , as we don't need to specify the number of rows/columns like repeat (2,...). 
+  - It utilizes the whole row
+  
+  ## auto-fit
+ - Used to fit all the items on the same line . 
+  - Same as **auto-fill** , just the items will be arranged properly if there are less items, for eg, if there are 3 divs it will arrange it in the center of the row. 
+  - If the size is decreased the divs will be moved downwards. 
+  
+ # Grid Vs Flex
+  - Use flex when u only want to make changes for rows or columns separately. 
+  - Use grid when u want to make changes with both rows and columns. 
+  
+
