@@ -434,4 +434,42 @@ Default value is static in the browser.
   - Use flex when u only want to make changes for rows or columns separately. 
   - Use grid when u want to make changes with both rows and columns. 
   
+# Transform
+  - It is different from animation :). 
+  
+  ## Transform-origin
+  - Default value is center, 
+  - It shows the place from where must the transformation should take place.
+  
+  ## translateX and translateY
+  - It works as left and right of position, it changes the position of the transform. 
+  - It is good to use this rather than setting position and giving left right top bottom in transform. 
+  - The X and Y will be applied wrt to the box, like it will be parallel to the box. If the box is at 45° , then same will be its path of translate. 
+  
+  ## translateZ
+  - This creates a 3D effect, like Z axis is the axis which is going inside the phone Or coming out to us. 
+  - To make it move inside, we use negative value. 
+  
+  ## skewX and skewY
+  - It changes the shape of the box, as if someone pulled it from left or top corners. 
+  - The negative values will move it to right and bottom respectively.
+  
+  ## scaleX and scaleY
+  - It allows us to increase the width and height of the image using it inside transform. 
+  - Shorthand property is **scale** , which will be applied to both axes. 
 
+  ## perspective and perspective-origin
+  - With this we can see the object from different sides which will act as 3D effect. 
+  - origin can make us see it from which ever side we want.
+  
+  ## rotateX and rotateY
+  - Used as predefined value inside transform property. 
+ - If we rotate the parent element then it'll also rotate all the child elements. 
+  - It is used to rotate the boxes . 
+ 
+  ## transform-style
+  - Default value is **flat** which means that the container will make the divs move with it along the axis. 
+
+  ## backface-visibility
+  - If we want to hide the back side of any div we can use this property with hidden. 
+  - Back face means the back side which we are able to see when it's flipped. 
